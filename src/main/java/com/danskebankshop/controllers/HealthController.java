@@ -1,2 +1,4 @@
-package com.danskebankshop.controllers;public class HealthController {
+package com.danskebankshop.controllers;
+
+public class HealthController {
 }

@@ -1,2 +1,18 @@
-package com.danskebankshop.model;public class User {
+package com.danskebankshop.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class User {
+private int id;
+private String name;
+private String lastname;
+private  WeekDays weekDays;
+private int hours_of_work;
 }
