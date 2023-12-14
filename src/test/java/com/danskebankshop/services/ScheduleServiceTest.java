@@ -35,7 +35,7 @@ class ScheduleServiceTest {
 
     @Test
     public void AddUserToAnotherScheduleWhenAlreadyIsOnASchedule() throws Exception {
-iScheduleService = new ScheduleService();
+        iScheduleService = new ScheduleService();
         var user1 =  User.builder().build();
         var user3 = User.builder().build();
         var schedue = Schedule.builder().user(user3).build();
